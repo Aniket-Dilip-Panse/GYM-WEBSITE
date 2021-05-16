@@ -292,6 +292,7 @@ h5{
     margin: 3rem 0rem ;
 }
 
+
 .fa-envelope-square,.fa-phone-square-alt,.fa-address-card{
     height: 2rem;
     color: #0097e6;
@@ -308,4 +309,16 @@ footer{
 footer h2{
     color: white;
     line-height: center;
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+        flex-wrap: wrap;
+    }
 }
