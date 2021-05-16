@@ -264,3 +264,48 @@ h5{
     text-align: center;
     font-size: 2rem;
 }
+/* last page */
+.feedback{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+#mail{
+    padding: 0.3rem 3rem 0.3rem 0rem;
+}
+#subject{
+    padding: 0.3rem 3rem 0.3rem 0rem;
+}
+#message{
+    padding: 0.3rem 3rem 0.3rem 0rem;
+}
+#send{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    padding: 0.3rem 4rem;
+    margin-top: 4rem;
+    margin-left: rem;
+}
+.contact{
+    margin: 3rem 0rem ;
+}
+
+.fa-envelope-square,.fa-phone-square-alt,.fa-address-card{
+    height: 2rem;
+    color: #0097e6;
+    size: 2rem;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    background-color: black;
+    height: 3rem;
+    line-height: center;
+}
+footer h2{
+    color: white;
+    line-height: center;
+}
